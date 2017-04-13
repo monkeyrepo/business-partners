@@ -40,7 +40,7 @@ public class CSVInputTestRoute extends RouteBuilder {
     	ProducerTemplate template = context.createProducerTemplate();
     	template.sendBody("direct:CSVstart",in);
     	MockEndpoint.assertIsSatisfied(context);
-    	System.err.println(finish.getExchanges().get(0).getIn().getBody());
+    	System.err.println("Result => " + finish.getExchanges().get(0).getIn().getBody());
     	
     	
     	context.stop();  
