@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoice xmlns="http://activemq.apache.org/camel/tutorial/partners/invoice">
+  <partner-id>2</partner-id>
+  <date-received>9/12/2008</date-received>
+  <line-item>
+    <product-id>134</product-id>
+    <description>A widget</description>
+    <quantity>3</quantity>
+    <item-price>10.45</item-price>
+    <order-date>6/5/2008</order-date>
+  </line-item>
+  <line-item>
+    <product-id>6234</product-id>
+    <description>Some gasket</description>
+    <quantity>8</quantity>
+    <item-price>0.33</item-price>
+    <order-date>7/12/2008</order-date>
+  </line-item>
+  <line-item>
+    <product-id>17</product-id>
+    <description>Big Motor</description>
+    <quantity>1</quantity>
+    <item-price>184.83</item-price>
+    <order-date>7/15/2008</order-date>
+  </line-item>
+  <order-total>218.82</order-total>
+</invoice>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema elementFormDefault="qualified" version="1.0"
+           targetNamespace="http://activemq.apache.org/camel/tutorial/partners/invoice"
+           xmlns:tns="http://activemq.apache.org/camel/tutorial/partners/invoice"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="invoice">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="partner-id" type="xs:long" />
+                <xs:element name="date-received" type="xs:date" />
+                <xs:element name="line-item" type="tns:line-itemType" maxOccurs="unbounded" />
+                <xs:element name="order-total" type="xs:decimal" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="line-itemType">
+        <xs:sequence>
+            <xs:element name="product-id" type="xs:long" />
+            <xs:element name="description" type="xs:string" />
+            <xs:element name="quantity" type="xs:int" />
+            <xs:element name="item-price" type="xs:decimal" />
+            <xs:element name="order-date" type="xs:date" />
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,26 @@
+<order>
+    <item>
+        <code>134</code>
+        <name>A widget</name>
+        <date>6/5/2008</date>
+        <quantity>3</quantity>
+        <price>10.45</price>
+        <total>31.35</total>
+    </item>
+    <item>
+        <code>6234</code>
+        <name>Some gasket</name>
+        <date>7/12/2008</date>
+        <quantity>8</quantity>
+        <price>0.33</price>
+        <total>2.64</total>
+    </item>
+    <item>
+        <code>17</code>
+        <name>Big Motor</name>
+        <date>7/15/2008</date>
+        <quantity>1</quantity>
+        <price>184.83</price>
+        <total>184.83</total>
+    </item>
+</order>
