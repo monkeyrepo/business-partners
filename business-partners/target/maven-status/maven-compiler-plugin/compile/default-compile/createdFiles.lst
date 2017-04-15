@@ -1,0 +1,5 @@
+org/apache/activemq/camel/tutorial/partners/invoice/package-info.class
+org/apache/activemq/camel/tutorial/partners/invoice/LineItemType.class
+org/apache/activemq/camel/tutorial/partners/invoice/ObjectFactory.class
+org/apache/camel/tutorial/CSVConverterBean.class
+org/apache/activemq/camel/tutorial/partners/invoice/Invoice.class
